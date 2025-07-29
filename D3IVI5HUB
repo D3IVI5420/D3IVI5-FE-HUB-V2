@@ -1,0 +1,1787 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local MainBackroundFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local SecondBackroundFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local MainTopFrame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local Close = Instance.new("ImageButton")
+local SideFrame = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Home = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Fe = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Flings = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Admin = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local ImageLabel_9 = Instance.new("ImageLabel")
+local ImageLabel_10 = Instance.new("ImageLabel")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local ScrollsFrame = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local HomeFrame = Instance.new("ScrollingFrame")
+local ImageLabel_12 = Instance.new("ImageLabel")
+local ImageLabel_13 = Instance.new("ImageLabel")
+local FeFrame = Instance.new("ScrollingFrame")
+local Button = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Button_2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Button_3 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Button_4 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Button_5 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Button_6 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Button_7 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Button_8 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Button_9 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Button_10 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Button_11 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Button_12 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local FlingsFrame = Instance.new("ScrollingFrame")
+local Button_13 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Button_14 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Button_15 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Button_16 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Button_17 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Button_18 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Button_19 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Button_20 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Button_21 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Button_22 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Button_23 = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Button_24 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local AdminFrame = Instance.new("ScrollingFrame")
+local Button_25 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Button_26 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Button_27 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local Button_28 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local Button_29 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local Button_30 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local Button_31 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local Button_32 = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local Button_33 = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local Button_34 = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local Button_35 = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local Button_36 = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+
+--Properties:
+
+MainBackroundFrame.Name = "MainBackroundFrame"
+MainBackroundFrame.Parent = game.StarterGui.ScreenGui
+MainBackroundFrame.BackgroundColor3 = Color3.fromRGB(75, 0, 149)
+MainBackroundFrame.BackgroundTransparency = 0.350
+MainBackroundFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainBackroundFrame.BorderSizePixel = 0
+MainBackroundFrame.Position = UDim2.new(0.230215833, 0, 0.27895391, 0)
+MainBackroundFrame.Size = UDim2.new(0, 675, 0, 354)
+MainBackroundFrame.ZIndex = 999999999
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = MainBackroundFrame
+
+SecondBackroundFrame.Name = "SecondBackroundFrame"
+SecondBackroundFrame.Parent = MainBackroundFrame
+SecondBackroundFrame.BackgroundColor3 = Color3.fromRGB(48, 0, 95)
+SecondBackroundFrame.BackgroundTransparency = 0.500
+SecondBackroundFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SecondBackroundFrame.BorderSizePixel = 0
+SecondBackroundFrame.Position = UDim2.new(0.0088888891, 0, 0.0169491526, 0)
+SecondBackroundFrame.Size = UDim2.new(0, 663, 0, 342)
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = SecondBackroundFrame
+
+MainTopFrame.Name = "MainTopFrame"
+MainTopFrame.Parent = MainBackroundFrame
+MainTopFrame.BackgroundColor3 = Color3.fromRGB(48, 0, 95)
+MainTopFrame.BackgroundTransparency = 0.500
+MainTopFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainTopFrame.BorderSizePixel = 0
+MainTopFrame.Position = UDim2.new(0.0177777782, 0, 0.0338983051, 0)
+MainTopFrame.Size = UDim2.new(0, 651, 0, 35)
+
+UICorner_3.CornerRadius = UDim.new(0, 10)
+UICorner_3.Parent = MainTopFrame
+
+ImageLabel.Parent = MainTopFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 0, -0.22857143, 0)
+ImageLabel.Size = UDim2.new(0, 219, 0, 50)
+ImageLabel.Image = "rbxassetid://95597145364458"
+
+Close.Name = "Close"
+Close.Parent = MainTopFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.930875599, 0, -0.142857149, 0)
+Close.Size = UDim2.new(0, 45, 0, 45)
+Close.Image = "rbxassetid://132261474823036"
+
+SideFrame.Name = "SideFrame"
+SideFrame.Parent = MainBackroundFrame
+SideFrame.BackgroundColor3 = Color3.fromRGB(48, 0, 95)
+SideFrame.BackgroundTransparency = 0.500
+SideFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SideFrame.BorderSizePixel = 0
+SideFrame.Position = UDim2.new(0.0177777782, 0, 0.14971751, 0)
+SideFrame.Size = UDim2.new(0, 156, 0, 289)
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = SideFrame
+
+Home.Name = "Home"
+Home.Parent = SideFrame
+Home.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.0384615399, 0, 0.0242214538, 0)
+Home.Size = UDim2.new(0, 143, 0, 34)
+Home.Font = Enum.Font.DenkOne
+Home.Text = ""
+Home.TextColor3 = Color3.fromRGB(0, 0, 0)
+Home.TextSize = 14.000
+
+UICorner_5.Parent = Home
+
+Fe.Name = "Fe"
+Fe.Parent = SideFrame
+Fe.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Fe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fe.BorderSizePixel = 0
+Fe.Position = UDim2.new(0.0384615399, 0, 0.162629753, 0)
+Fe.Size = UDim2.new(0, 143, 0, 34)
+Fe.Font = Enum.Font.SourceSans
+Fe.Text = ""
+Fe.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fe.TextSize = 14.000
+
+UICorner_6.Parent = Fe
+
+Flings.Name = "Flings"
+Flings.Parent = SideFrame
+Flings.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Flings.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Flings.BorderSizePixel = 0
+Flings.Position = UDim2.new(0.0384615399, 0, 0.301038057, 0)
+Flings.Size = UDim2.new(0, 143, 0, 34)
+Flings.Font = Enum.Font.SourceSans
+Flings.Text = ""
+Flings.TextColor3 = Color3.fromRGB(0, 0, 0)
+Flings.TextSize = 14.000
+
+UICorner_7.Parent = Flings
+
+Admin.Name = "Admin"
+Admin.Parent = SideFrame
+Admin.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Admin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Admin.BorderSizePixel = 0
+Admin.Position = UDim2.new(0.0384615399, 0, 0.43944636, 0)
+Admin.Size = UDim2.new(0, 143, 0, 34)
+Admin.Font = Enum.Font.SourceSans
+Admin.Text = ""
+Admin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Admin.TextSize = 14.000
+
+UICorner_8.Parent = Admin
+
+ImageLabel_2.Parent = SideFrame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0384615399, 0, 0.0242214538, 0)
+ImageLabel_2.Size = UDim2.new(0, 37, 0, 34)
+ImageLabel_2.Image = "rbxassetid://18465181643"
+
+ImageLabel_3.Parent = SideFrame
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.25, 0, 0.0138408309, 0)
+ImageLabel_3.Size = UDim2.new(0, 101, 0, 40)
+ImageLabel_3.Image = "rbxassetid://131108979801132"
+
+ImageLabel_4.Parent = SideFrame
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.057692308, 0, 0.166089967, 0)
+ImageLabel_4.Size = UDim2.new(0, 30, 0, 31)
+ImageLabel_4.Image = "rbxassetid://11570626761"
+
+ImageLabel_5.Parent = SideFrame
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.057692308, 0, 0.166089967, 0)
+ImageLabel_5.Size = UDim2.new(0, 30, 0, 31)
+ImageLabel_5.Image = "rbxassetid://11570626761"
+
+ImageLabel_6.Parent = SideFrame
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0.057692308, 0, 0.304498255, 0)
+ImageLabel_6.Size = UDim2.new(0, 30, 0, 31)
+ImageLabel_6.Image = "rbxassetid://133592904530835"
+
+ImageLabel_7.Parent = SideFrame
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BackgroundTransparency = 1.000
+ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(0.0769230798, 0, 0.456747413, 0)
+ImageLabel_7.Size = UDim2.new(0, 24, 0, 25)
+ImageLabel_7.Image = "rbxassetid://10150831107"
+
+ImageLabel_8.Parent = SideFrame
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_8.BackgroundTransparency = 1.000
+ImageLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_8.BorderSizePixel = 0
+ImageLabel_8.Position = UDim2.new(0.230769232, 0, 0.290657431, 0)
+ImageLabel_8.Size = UDim2.new(0, 108, 0, 40)
+ImageLabel_8.Image = "rbxassetid://86229336225007"
+
+ImageLabel_9.Parent = SideFrame
+ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_9.BackgroundTransparency = 1.000
+ImageLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_9.BorderSizePixel = 0
+ImageLabel_9.Position = UDim2.new(0.230769232, 0, 0.429065734, 0)
+ImageLabel_9.Size = UDim2.new(0, 108, 0, 40)
+ImageLabel_9.Image = "rbxassetid://78132354184566"
+
+ImageLabel_10.Parent = SideFrame
+ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_10.BackgroundTransparency = 1.000
+ImageLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_10.BorderSizePixel = 0
+ImageLabel_10.Position = UDim2.new(0.25, 0, 0.159169555, 0)
+ImageLabel_10.Size = UDim2.new(0, 44, 0, 35)
+ImageLabel_10.Image = "rbxassetid://106093941261066"
+
+ImageLabel_11.Parent = SideFrame
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_11.BackgroundTransparency = 1.000
+ImageLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_11.BorderSizePixel = 0
+ImageLabel_11.Position = UDim2.new(-0.173076928, 0, 0.747404873, 0)
+ImageLabel_11.Size = UDim2.new(0, 211, 0, 100)
+ImageLabel_11.Image = "rbxassetid://17380502789"
+
+ScrollsFrame.Name = "ScrollsFrame"
+ScrollsFrame.Parent = MainBackroundFrame
+ScrollsFrame.BackgroundColor3 = Color3.fromRGB(48, 0, 95)
+ScrollsFrame.BackgroundTransparency = 0.500
+ScrollsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollsFrame.BorderSizePixel = 0
+ScrollsFrame.Position = UDim2.new(0.25777778, 0, 0.14971751, 0)
+ScrollsFrame.Size = UDim2.new(0, 489, 0, 289)
+
+UICorner_9.CornerRadius = UDim.new(0, 10)
+UICorner_9.Parent = ScrollsFrame
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = ScrollsFrame
+HomeFrame.Active = true
+HomeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeFrame.BackgroundTransparency = 1.000
+HomeFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Size = UDim2.new(0, 489, 0, 289)
+HomeFrame.Visible = false
+HomeFrame.CanvasSize = UDim2.new(0, 0, 1, 0)
+HomeFrame.ScrollBarThickness = 0
+
+ImageLabel_12.Parent = HomeFrame
+ImageLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_12.BackgroundTransparency = 1.000
+ImageLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_12.BorderSizePixel = 0
+ImageLabel_12.Position = UDim2.new(0, 0, 0.217993081, 0)
+ImageLabel_12.Size = UDim2.new(0, 489, 0, 121)
+ImageLabel_12.Image = "rbxassetid://76727426745547"
+
+ImageLabel_13.Parent = HomeFrame
+ImageLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_13.BackgroundTransparency = 1.000
+ImageLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_13.BorderSizePixel = 0
+ImageLabel_13.Position = UDim2.new(0.408997953, 0, 0.0242214538, 0)
+ImageLabel_13.Size = UDim2.new(0, 94, 0, 81)
+ImageLabel_13.Image = "rbxassetid://68073547"
+
+FeFrame.Name = "FeFrame"
+FeFrame.Parent = ScrollsFrame
+FeFrame.Active = true
+FeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FeFrame.BackgroundTransparency = 1.000
+FeFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FeFrame.BorderSizePixel = 0
+FeFrame.Size = UDim2.new(0, 489, 0, 289)
+FeFrame.Visible = false
+
+Button.Name = "Button"
+Button.Parent = FeFrame
+Button.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0137402741, 0, 0.0110733397, 0)
+Button.Size = UDim2.new(0, 463, 0, 40)
+Button.Font = Enum.Font.DenkOne
+Button.Text = "Fsploit animations"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+UICorner_10.Parent = Button
+
+Button_2.Name = "Button"
+Button_2.Parent = FeFrame
+Button_2.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_2.BorderSizePixel = 0
+Button_2.Position = UDim2.new(0.0137402741, 0, 0.0885867178, 0)
+Button_2.Size = UDim2.new(0, 463, 0, 40)
+Button_2.Font = Enum.Font.DenkOne
+Button_2.Text = "Silly Animations"
+Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_2.TextScaled = true
+Button_2.TextSize = 14.000
+Button_2.TextWrapped = true
+
+UICorner_11.Parent = Button_2
+
+Button_3.Name = "Button"
+Button_3.Parent = FeFrame
+Button_3.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_3.BorderSizePixel = 0
+Button_3.Position = UDim2.new(0.0137402741, 0, 0.165400624, 0)
+Button_3.Size = UDim2.new(0, 463, 0, 40)
+Button_3.Font = Enum.Font.DenkOne
+Button_3.Text = "Animatrix"
+Button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_3.TextScaled = true
+Button_3.TextSize = 14.000
+Button_3.TextWrapped = true
+
+UICorner_12.Parent = Button_3
+
+Button_4.Name = "Button"
+Button_4.Parent = FeFrame
+Button_4.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_4.BorderSizePixel = 0
+Button_4.Position = UDim2.new(0.0140000004, 0, 0.244000003, 0)
+Button_4.Size = UDim2.new(0, 463, 0, 40)
+Button_4.Font = Enum.Font.DenkOne
+Button_4.Text = "R6 Gooner"
+Button_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_4.TextScaled = true
+Button_4.TextSize = 14.000
+Button_4.TextWrapped = true
+
+UICorner_13.Parent = Button_4
+
+Button_5.Name = "Button"
+Button_5.Parent = FeFrame
+Button_5.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_5.BorderSizePixel = 0
+Button_5.Position = UDim2.new(0.0140000004, 0, 0.32100001, 0)
+Button_5.Size = UDim2.new(0, 463, 0, 40)
+Button_5.Font = Enum.Font.DenkOne
+Button_5.Text = "R15 Gonner"
+Button_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_5.TextScaled = true
+Button_5.TextSize = 14.000
+Button_5.TextWrapped = true
+
+UICorner_14.Parent = Button_5
+
+Button_6.Name = "Button"
+Button_6.Parent = FeFrame
+Button_6.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_6.BorderSizePixel = 0
+Button_6.Position = UDim2.new(0.0140000004, 0, 0.389999986, 5)
+Button_6.Size = UDim2.new(0, 463, 0, 40)
+Button_6.Font = Enum.Font.DenkOne
+Button_6.Text = "Side Flip"
+Button_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_6.TextScaled = true
+Button_6.TextSize = 14.000
+Button_6.TextWrapped = true
+
+UICorner_15.Parent = Button_6
+
+Button_7.Name = "Button"
+Button_7.Parent = FeFrame
+Button_7.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_7.BorderSizePixel = 0
+Button_7.Position = UDim2.new(0.0140000004, 0, 0.400000006, 45)
+Button_7.Size = UDim2.new(0, 463, 0, 40)
+Button_7.Font = Enum.Font.DenkOne
+Button_7.Text = "Flips z/x/c"
+Button_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_7.TextScaled = true
+Button_7.TextSize = 14.000
+Button_7.TextWrapped = true
+
+UICorner_16.Parent = Button_7
+
+Button_8.Name = "Button"
+Button_8.Parent = FeFrame
+Button_8.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_8.BorderSizePixel = 0
+Button_8.Position = UDim2.new(0.0140000004, 0, 0.400000006, 90)
+Button_8.Size = UDim2.new(0, 463, 0, 40)
+Button_8.Font = Enum.Font.DenkOne
+Button_8.Text = "SCP-096"
+Button_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_8.TextScaled = true
+Button_8.TextSize = 14.000
+Button_8.TextWrapped = true
+
+UICorner_17.Parent = Button_8
+
+Button_9.Name = "Button"
+Button_9.Parent = FeFrame
+Button_9.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_9.BorderSizePixel = 0
+Button_9.Position = UDim2.new(0.0140000004, 0, 0.400000006, 135)
+Button_9.Size = UDim2.new(0, 463, 0, 40)
+Button_9.Font = Enum.Font.DenkOne
+Button_9.Text = "Roll Like a Ball"
+Button_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_9.TextScaled = true
+Button_9.TextSize = 14.000
+Button_9.TextWrapped = true
+
+UICorner_18.Parent = Button_9
+
+Button_10.Name = "Button"
+Button_10.Parent = FeFrame
+Button_10.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_10.BorderSizePixel = 0
+Button_10.Position = UDim2.new(0.0140000004, 0, 0.400000006, 180)
+Button_10.Size = UDim2.new(0, 463, 0, 40)
+Button_10.Font = Enum.Font.DenkOne
+Button_10.Text = "Telekinesis"
+Button_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_10.TextScaled = true
+Button_10.TextSize = 14.000
+Button_10.TextWrapped = true
+
+UICorner_19.Parent = Button_10
+
+Button_11.Name = "Button"
+Button_11.Parent = FeFrame
+Button_11.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_11.BorderSizePixel = 0
+Button_11.Position = UDim2.new(0.0140000004, 0, 0.5, 167)
+Button_11.Size = UDim2.new(0, 463, 0, 40)
+Button_11.Font = Enum.Font.DenkOne
+Button_11.Text = "Drift Car"
+Button_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_11.TextScaled = true
+Button_11.TextSize = 14.000
+Button_11.TextWrapped = true
+
+UICorner_20.Parent = Button_11
+
+Button_12.Name = "Button"
+Button_12.Parent = FeFrame
+Button_12.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_12.BorderSizePixel = 0
+Button_12.Position = UDim2.new(0.0140000004, 0, 0.5, 212)
+Button_12.Size = UDim2.new(0, 463, 0, 40)
+Button_12.Font = Enum.Font.DenkOne
+Button_12.Text = "Blade"
+Button_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_12.TextScaled = true
+Button_12.TextSize = 14.000
+Button_12.TextWrapped = true
+
+UICorner_21.Parent = Button_12
+
+FlingsFrame.Name = "FlingsFrame"
+FlingsFrame.Parent = ScrollsFrame
+FlingsFrame.Active = true
+FlingsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlingsFrame.BackgroundTransparency = 1.000
+FlingsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FlingsFrame.BorderSizePixel = 0
+FlingsFrame.Size = UDim2.new(0, 489, 0, 289)
+FlingsFrame.Visible = false
+
+Button_13.Name = "Button"
+Button_13.Parent = FlingsFrame
+Button_13.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_13.BorderSizePixel = 0
+Button_13.Position = UDim2.new(0.0137402741, 0, 0.0110733397, 0)
+Button_13.Size = UDim2.new(0, 463, 0, 40)
+Button_13.Font = Enum.Font.DenkOne
+Button_13.Text = "Kawaii Fling"
+Button_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_13.TextScaled = true
+Button_13.TextSize = 14.000
+Button_13.TextWrapped = true
+
+UICorner_22.Parent = Button_13
+
+Button_14.Name = "Button"
+Button_14.Parent = FlingsFrame
+Button_14.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_14.BorderSizePixel = 0
+Button_14.Position = UDim2.new(0.0137402741, 0, 0.0885867178, 0)
+Button_14.Size = UDim2.new(0, 463, 0, 40)
+Button_14.Font = Enum.Font.DenkOne
+Button_14.Text = "Click Fling"
+Button_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_14.TextScaled = true
+Button_14.TextSize = 14.000
+Button_14.TextWrapped = true
+
+UICorner_23.Parent = Button_14
+
+Button_15.Name = "Button"
+Button_15.Parent = FlingsFrame
+Button_15.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_15.BorderSizePixel = 0
+Button_15.Position = UDim2.new(0.0137402741, 0, 0.165400624, 0)
+Button_15.Size = UDim2.new(0, 463, 0, 40)
+Button_15.Font = Enum.Font.DenkOne
+Button_15.Text = "Touch Fling"
+Button_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_15.TextScaled = true
+Button_15.TextSize = 14.000
+Button_15.TextWrapped = true
+
+UICorner_24.Parent = Button_15
+
+Button_16.Name = "Button"
+Button_16.Parent = FlingsFrame
+Button_16.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_16.BorderSizePixel = 0
+Button_16.Position = UDim2.new(0.0140000004, 0, 0.244000003, 0)
+Button_16.Size = UDim2.new(0, 463, 0, 40)
+Button_16.Font = Enum.Font.DenkOne
+Button_16.Text = "fling control"
+Button_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_16.TextScaled = true
+Button_16.TextSize = 14.000
+Button_16.TextWrapped = true
+
+UICorner_25.Parent = Button_16
+
+Button_17.Name = "Button"
+Button_17.Parent = FlingsFrame
+Button_17.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_17.BorderSizePixel = 0
+Button_17.Position = UDim2.new(0.0140000004, 0, 0.32100001, 0)
+Button_17.Size = UDim2.new(0, 463, 0, 40)
+Button_17.Font = Enum.Font.DenkOne
+Button_17.Text = ""
+Button_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_17.TextScaled = true
+Button_17.TextSize = 14.000
+Button_17.TextWrapped = true
+
+UICorner_26.Parent = Button_17
+
+Button_18.Name = "Button"
+Button_18.Parent = FlingsFrame
+Button_18.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_18.BorderSizePixel = 0
+Button_18.Position = UDim2.new(0.0140000004, 0, 0.389999986, 5)
+Button_18.Size = UDim2.new(0, 463, 0, 40)
+Button_18.Font = Enum.Font.DenkOne
+Button_18.Text = ""
+Button_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_18.TextScaled = true
+Button_18.TextSize = 14.000
+Button_18.TextWrapped = true
+
+UICorner_27.Parent = Button_18
+
+Button_19.Name = "Button"
+Button_19.Parent = FlingsFrame
+Button_19.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_19.BorderSizePixel = 0
+Button_19.Position = UDim2.new(0.0140000004, 0, 0.400000006, 45)
+Button_19.Size = UDim2.new(0, 463, 0, 40)
+Button_19.Font = Enum.Font.DenkOne
+Button_19.Text = ""
+Button_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_19.TextScaled = true
+Button_19.TextSize = 14.000
+Button_19.TextWrapped = true
+
+UICorner_28.Parent = Button_19
+
+Button_20.Name = "Button"
+Button_20.Parent = FlingsFrame
+Button_20.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_20.BorderSizePixel = 0
+Button_20.Position = UDim2.new(0.0140000004, 0, 0.400000006, 90)
+Button_20.Size = UDim2.new(0, 463, 0, 40)
+Button_20.Font = Enum.Font.DenkOne
+Button_20.Text = ""
+Button_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_20.TextScaled = true
+Button_20.TextSize = 14.000
+Button_20.TextWrapped = true
+
+UICorner_29.Parent = Button_20
+
+Button_21.Name = "Button"
+Button_21.Parent = FlingsFrame
+Button_21.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_21.BorderSizePixel = 0
+Button_21.Position = UDim2.new(0.0140000004, 0, 0.400000006, 135)
+Button_21.Size = UDim2.new(0, 463, 0, 40)
+Button_21.Font = Enum.Font.DenkOne
+Button_21.Text = ""
+Button_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_21.TextScaled = true
+Button_21.TextSize = 14.000
+Button_21.TextWrapped = true
+
+UICorner_30.Parent = Button_21
+
+Button_22.Name = "Button"
+Button_22.Parent = FlingsFrame
+Button_22.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_22.BorderSizePixel = 0
+Button_22.Position = UDim2.new(0.0140000004, 0, 0.400000006, 180)
+Button_22.Size = UDim2.new(0, 463, 0, 40)
+Button_22.Font = Enum.Font.DenkOne
+Button_22.Text = ""
+Button_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_22.TextScaled = true
+Button_22.TextSize = 14.000
+Button_22.TextWrapped = true
+
+UICorner_31.Parent = Button_22
+
+Button_23.Name = "Button"
+Button_23.Parent = FlingsFrame
+Button_23.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_23.BorderSizePixel = 0
+Button_23.Position = UDim2.new(0.0140000004, 0, 0.5, 167)
+Button_23.Size = UDim2.new(0, 463, 0, 40)
+Button_23.Font = Enum.Font.DenkOne
+Button_23.Text = ""
+Button_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_23.TextScaled = true
+Button_23.TextSize = 14.000
+Button_23.TextWrapped = true
+
+UICorner_32.Parent = Button_23
+
+Button_24.Name = "Button"
+Button_24.Parent = FlingsFrame
+Button_24.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_24.BorderSizePixel = 0
+Button_24.Position = UDim2.new(0.0140000004, 0, 0.5, 212)
+Button_24.Size = UDim2.new(0, 463, 0, 40)
+Button_24.Font = Enum.Font.DenkOne
+Button_24.Text = ""
+Button_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_24.TextScaled = true
+Button_24.TextSize = 14.000
+Button_24.TextWrapped = true
+
+UICorner_33.Parent = Button_24
+
+AdminFrame.Name = "AdminFrame"
+AdminFrame.Parent = ScrollsFrame
+AdminFrame.Active = true
+AdminFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdminFrame.BackgroundTransparency = 1.000
+AdminFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AdminFrame.BorderSizePixel = 0
+AdminFrame.Size = UDim2.new(0, 489, 0, 289)
+
+Button_25.Name = "Button"
+Button_25.Parent = AdminFrame
+Button_25.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_25.BorderSizePixel = 0
+Button_25.Position = UDim2.new(0.0137402741, 0, 0.0110733397, 0)
+Button_25.Size = UDim2.new(0, 463, 0, 40)
+Button_25.Font = Enum.Font.DenkOne
+Button_25.Text = "Infinity yield"
+Button_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_25.TextScaled = true
+Button_25.TextSize = 14.000
+Button_25.TextWrapped = true
+
+UICorner_34.Parent = Button_25
+
+Button_26.Name = "Button"
+Button_26.Parent = AdminFrame
+Button_26.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_26.BorderSizePixel = 0
+Button_26.Position = UDim2.new(0.0137402741, 0, 0.0885867178, 0)
+Button_26.Size = UDim2.new(0, 463, 0, 40)
+Button_26.Font = Enum.Font.DenkOne
+Button_26.Text = "Nameless Admin"
+Button_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_26.TextScaled = true
+Button_26.TextSize = 14.000
+Button_26.TextWrapped = true
+
+UICorner_35.Parent = Button_26
+
+Button_27.Name = "Button"
+Button_27.Parent = AdminFrame
+Button_27.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_27.BorderSizePixel = 0
+Button_27.Position = UDim2.new(0.0137402741, 0, 0.165400624, 0)
+Button_27.Size = UDim2.new(0, 463, 0, 40)
+Button_27.Font = Enum.Font.DenkOne
+Button_27.Text = ""
+Button_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_27.TextScaled = true
+Button_27.TextSize = 14.000
+Button_27.TextWrapped = true
+
+UICorner_36.Parent = Button_27
+
+Button_28.Name = "Button"
+Button_28.Parent = AdminFrame
+Button_28.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_28.BorderSizePixel = 0
+Button_28.Position = UDim2.new(0.0140000004, 0, 0.244000003, 0)
+Button_28.Size = UDim2.new(0, 463, 0, 40)
+Button_28.Font = Enum.Font.DenkOne
+Button_28.Text = ""
+Button_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_28.TextScaled = true
+Button_28.TextSize = 14.000
+Button_28.TextWrapped = true
+
+UICorner_37.Parent = Button_28
+
+Button_29.Name = "Button"
+Button_29.Parent = AdminFrame
+Button_29.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_29.BorderSizePixel = 0
+Button_29.Position = UDim2.new(0.0140000004, 0, 0.32100001, 0)
+Button_29.Size = UDim2.new(0, 463, 0, 40)
+Button_29.Font = Enum.Font.DenkOne
+Button_29.Text = ""
+Button_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_29.TextScaled = true
+Button_29.TextSize = 14.000
+Button_29.TextWrapped = true
+
+UICorner_38.Parent = Button_29
+
+Button_30.Name = "Button"
+Button_30.Parent = AdminFrame
+Button_30.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_30.BorderSizePixel = 0
+Button_30.Position = UDim2.new(0.0140000004, 0, 0.389999986, 6)
+Button_30.Size = UDim2.new(0, 463, 0, 40)
+Button_30.Font = Enum.Font.DenkOne
+Button_30.Text = ""
+Button_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_30.TextScaled = true
+Button_30.TextSize = 14.000
+Button_30.TextWrapped = true
+
+UICorner_39.Parent = Button_30
+
+Button_31.Name = "Button"
+Button_31.Parent = AdminFrame
+Button_31.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_31.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_31.BorderSizePixel = 0
+Button_31.Position = UDim2.new(0.0140000004, 0, 0.400000006, 45)
+Button_31.Size = UDim2.new(0, 463, 0, 40)
+Button_31.Font = Enum.Font.DenkOne
+Button_31.Text = ""
+Button_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_31.TextScaled = true
+Button_31.TextSize = 14.000
+Button_31.TextWrapped = true
+
+UICorner_40.Parent = Button_31
+
+Button_32.Name = "Button"
+Button_32.Parent = AdminFrame
+Button_32.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_32.BorderSizePixel = 0
+Button_32.Position = UDim2.new(0.0140000004, 0, 0.400000006, 90)
+Button_32.Size = UDim2.new(0, 463, 0, 40)
+Button_32.Font = Enum.Font.DenkOne
+Button_32.Text = ""
+Button_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_32.TextScaled = true
+Button_32.TextSize = 14.000
+Button_32.TextWrapped = true
+
+UICorner_41.Parent = Button_32
+
+Button_33.Name = "Button"
+Button_33.Parent = AdminFrame
+Button_33.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_33.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_33.BorderSizePixel = 0
+Button_33.Position = UDim2.new(0.0140000004, 0, 0.400000006, 135)
+Button_33.Size = UDim2.new(0, 463, 0, 40)
+Button_33.Font = Enum.Font.DenkOne
+Button_33.Text = ""
+Button_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_33.TextScaled = true
+Button_33.TextSize = 14.000
+Button_33.TextWrapped = true
+
+UICorner_42.Parent = Button_33
+
+Button_34.Name = "Button"
+Button_34.Parent = AdminFrame
+Button_34.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_34.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_34.BorderSizePixel = 0
+Button_34.Position = UDim2.new(0.0140000004, 0, 0.400000006, 180)
+Button_34.Size = UDim2.new(0, 463, 0, 40)
+Button_34.Font = Enum.Font.DenkOne
+Button_34.Text = ""
+Button_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_34.TextScaled = true
+Button_34.TextSize = 14.000
+Button_34.TextWrapped = true
+
+UICorner_43.Parent = Button_34
+
+Button_35.Name = "Button"
+Button_35.Parent = AdminFrame
+Button_35.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_35.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_35.BorderSizePixel = 0
+Button_35.Position = UDim2.new(0.0140000004, 0, 0.5, 167)
+Button_35.Size = UDim2.new(0, 463, 0, 40)
+Button_35.Font = Enum.Font.DenkOne
+Button_35.Text = ""
+Button_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_35.TextScaled = true
+Button_35.TextSize = 14.000
+Button_35.TextWrapped = true
+
+UICorner_44.Parent = Button_35
+
+Button_36.Name = "Button"
+Button_36.Parent = AdminFrame
+Button_36.BackgroundColor3 = Color3.fromRGB(115, 0, 255)
+Button_36.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_36.BorderSizePixel = 0
+Button_36.Position = UDim2.new(0.0140000004, 0, 0.5, 212)
+Button_36.Size = UDim2.new(0, 463, 0, 40)
+Button_36.Font = Enum.Font.DenkOne
+Button_36.Text = ""
+Button_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_36.TextScaled = true
+Button_36.TextSize = 14.000
+Button_36.TextWrapped = true
+
+UICorner_45.Parent = Button_36
+
+-- Scripts:
+
+local function EQQNH_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local button = script.Parent
+	local screenGui = button:FindFirstAncestorOfClass("ScreenGui")
+	local TweenService = game:GetService("TweenService")
+	
+	-- Function to fade out all GUI elements
+	local function fadeOutGUI()
+		if not screenGui then return end
+	
+		for _, object in ipairs(screenGui:GetDescendants()) do
+			if object:IsA("Frame") or object:IsA("TextLabel") or object:IsA("TextButton") or object:IsA("ImageLabel") or object:IsA("ImageButton") then
+				-- Background
+				local bgTween = TweenService:Create(object, TweenInfo.new(0.5), {
+					BackgroundTransparency = 1
+				})
+				bgTween:Play()
+	
+				-- Text
+				if object:IsA("TextLabel") or object:IsA("TextButton") then
+					local textTween = TweenService:Create(object, TweenInfo.new(0.5), {
+						TextTransparency = 1
+					})
+					textTween:Play()
+				end
+	
+				-- Image
+				if object:IsA("ImageLabel") or object:IsA("ImageButton") then
+					local imgTween = TweenService:Create(object, TweenInfo.new(0.5), {
+						ImageTransparency = 1
+					})
+					imgTween:Play()
+				end
+			end
+		end
+	
+		-- Wait for fade to finish, then disable
+		task.delay(0.5, function()
+			screenGui.Enabled = false
+		end)
+	end
+	
+	-- Connect the button
+	button.MouseButton1Click:Connect(fadeOutGUI)
+	
+end
+coroutine.wrap(EQQNH_fake_script)()
+local function JJBKN_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/FeAnimationHub/refs/heads/main/Hub.lua"))()
+	end)
+	
+	
+end
+coroutine.wrap(JJBKN_fake_script)()
+local function XYSCMRL_fake_script() -- Button_3.LocalScript 
+	local script = Instance.new('LocalScript', Button_3)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ocfi/aqua-hub-is-a-skid-lol/refs/heads/main/animatrix"))()
+	end)
+	
+end
+coroutine.wrap(XYSCMRL_fake_script)()
+local function DNCRC_fake_script() -- Button_4.LocalScript 
+	local script = Instance.new('LocalScript', Button_4)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+	end)
+	
+end
+coroutine.wrap(DNCRC_fake_script)()
+local function XBOPU_fake_script() -- Button_5.LocalScript 
+	local script = Instance.new('LocalScript', Button_5)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
+	end)
+	
+end
+coroutine.wrap(XBOPU_fake_script)()
+local function PFRVGDJ_fake_script() -- Button_6.LocalScript 
+	local script = Instance.new('LocalScript', Button_6)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local pl = game.Players.LocalPlayer
+		local me = pl.Character
+		local xl = me:FindFirstChild("Torso") and me.Torso:FindFirstChild("Right Shoulder")
+	
+		local t = Instance.new("HopperBin", pl.Backpack)
+		t.Name = "the_Parkour_Flip"
+	
+		local debounce = false
+	
+		local function _restoreproperties()
+			local Holder = pl.Character
+			local Torso = Holder:FindFirstChild("Torso")
+			if not Torso then return end
+	
+			local RightS = Torso:FindFirstChild("Right Shoulder")
+			local LeftS = Torso:FindFirstChild("Left Shoulder")
+			local RightH = Torso:FindFirstChild("Right Hip")
+			local LeftH = Torso:FindFirstChild("Left Hip")
+	
+			if RightS and LeftS and RightH and LeftH then
+				RightS.MaxVelocity = .15
+				LeftS.MaxVelocity = .15
+				RightH.MaxVelocity = .1
+				LeftH.MaxVelocity = .1
+				RightS.DesiredAngle = 0
+				LeftS.DesiredAngle = 0
+				LeftH.DesiredAngle = 0
+				RightH.DesiredAngle = 0
+			end
+		end
+	
+		local function ManageAnimation(value)
+			local Holder = pl.Character
+			if value == "no anim" then
+				local Anim = Holder:FindFirstChild("Animate")
+				if Anim then
+					Anim.Disabled = true
+					Anim.Parent = pl
+				end
+			elseif value == "re-anim" then
+				local Anim = pl:FindFirstChild("Animate")
+				if Anim then
+					Anim.Disabled = false
+					Anim.Parent = Holder
+				end
+			end
+		end
+	
+		local function Down(ml)
+			for i = 1, ml.velocity.Y / 3 do
+				ml.velocity = ml.velocity + Vector3.new(0, -4.25, 0)
+				wait()
+			end
+			ml:Destroy()
+		end
+	
+		local function Flip()
+			if debounce then return end
+			debounce = true
+	
+			local Char = pl.Character
+			local Human = Char:FindFirstChildOfClass("Humanoid")
+			local Torso = Char:FindFirstChild("Torso")
+			if not Human or not Torso then return end
+	
+			local CF = Torso.CFrame
+			Human.PlatformStand = false
+			Human.Sit = true
+	
+			local VelUp = Instance.new("BodyVelocity")
+			VelUp.velocity = Vector3.new(0, -5000, 0) + Torso.CFrame.lookVector * -30
+			VelUp.P = VelUp.P * -1000
+			VelUp.maxForce = Vector3.new(10000, 10000, 10000) * 999
+			VelUp.Parent = Torso
+	
+			coroutine.resume(coroutine.create(Down), VelUp)
+	
+			local Gyro = Instance.new("BodyGyro")
+			Gyro.P = Gyro.P * 10
+			Gyro.maxTorque = Vector3.new(100000, 100000, 100000) * 999
+			Gyro.cframe = CF
+			Gyro.Parent = Torso
+	
+			for i = 1, 16 do
+				Gyro.cframe = Gyro.cframe * CFrame.fromEulerAnglesXYZ(math.pi / 9, math.pi / -18, 0)
+				wait()
+			end
+	
+			Gyro.cframe = CF
+			wait()
+			Gyro:Destroy()
+	
+			Human.PlatformStand = false
+			Human.Sit = false
+			_restoreproperties()
+			debounce = false
+		end
+	
+		local function onActive(mouse)
+			mouse.Button1Down:Connect(Flip)
+		end
+	
+		t.Selected:Connect(onActive)
+	end)
+	
+end
+coroutine.wrap(PFRVGDJ_fake_script)()
+local function JXOXM_fake_script() -- Button_7.LocalScript 
+	local script = Instance.new('LocalScript', Button_7)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		-- Wait for character to load
+		task.wait(5)
+	
+		-- Info
+		local ver = "2.00"
+		local scriptname = "feFlip"
+	
+		-- Keybinds
+		local FrontflipKey = Enum.KeyCode.Z
+		local BackflipKey = Enum.KeyCode.X
+		local AirjumpKey = Enum.KeyCode.C
+	
+		-- Dependencies
+		local ca = game:GetService("ContextActionService")
+		local zeezy = game:GetService("Players").LocalPlayer
+		local h = 0.0174533
+	
+		-- Functions
+		local function zeezyFrontflip(act, inp, obj)
+			if inp == Enum.UserInputState.Begin then
+				zeezy.Character.Humanoid:ChangeState("Jumping")
+				task.wait()
+				zeezy.Character.Humanoid.Sit = true
+				for i = 1, 360 do 
+					delay(i / 720, function()
+						if zeezy and zeezy.Character and zeezy.Character:FindFirstChild("HumanoidRootPart") then
+							zeezy.Character.Humanoid.Sit = true
+							zeezy.Character.HumanoidRootPart.CFrame = zeezy.Character.HumanoidRootPart.CFrame * CFrame.Angles(-h, 0, 0)
+						end
+					end)
+				end
+				task.wait(0.55)
+				zeezy.Character.Humanoid.Sit = false
+			end
+		end
+	
+		local function zeezyBackflip(act, inp, obj)
+			if inp == Enum.UserInputState.Begin then
+				zeezy.Character.Humanoid:ChangeState("Jumping")
+				task.wait()
+				zeezy.Character.Humanoid.Sit = true
+				for i = 1, 360 do 
+					delay(i / 720, function()
+						if zeezy and zeezy.Character and zeezy.Character:FindFirstChild("HumanoidRootPart") then
+							zeezy.Character.Humanoid.Sit = true
+							zeezy.Character.HumanoidRootPart.CFrame = zeezy.Character.HumanoidRootPart.CFrame * CFrame.Angles(h, 0, 0)
+						end
+					end)
+				end
+				task.wait(0.55)
+				zeezy.Character.Humanoid.Sit = false
+			end
+		end
+	
+		local function zeezyAirjump(act, inp, obj)
+			if inp == Enum.UserInputState.Begin then
+				zeezy.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Seated")
+				task.wait()
+				zeezy.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+			end
+		end
+	
+		-- Binds
+		ca:BindAction("zeezyFrontflip", zeezyFrontflip, false, FrontflipKey)
+		ca:BindAction("zeezyBackflip", zeezyBackflip, false, BackflipKey)
+		ca:BindAction("zeezyAirjump", zeezyAirjump, false, AirjumpKey)
+	
+		-- Notification and sound
+		print(scriptname .. " " .. ver .. " loaded successfully")
+		print("made by Zeezy#7203")
+	
+		local notifSound = Instance.new("Sound", workspace)
+		notifSound.PlaybackSpeed = 1.5
+		notifSound.Volume = 0.15
+		notifSound.SoundId = "rbxassetid://170765130"
+		notifSound.PlayOnRemove = true
+		notifSound:Destroy()
+	
+		pcall(function()
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "feFlip",
+				Text = "feFlip loaded successfully!",
+				Icon = "rbxassetid://505845268",
+				Duration = 5,
+				Button1 = "Okay"
+			})
+		end)
+	end)
+	
+end
+coroutine.wrap(JXOXM_fake_script)()
+local function MZXGNED_fake_script() -- Button_8.LocalScript 
+	local script = Instance.new('LocalScript', Button_8)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/YsJgITXR/raw"))()
+	end)
+	
+	
+end
+coroutine.wrap(MZXGNED_fake_script)()
+local function CSLNSSW_fake_script() -- Button_9.LocalScript 
+	local script = Instance.new('LocalScript', Button_9)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local UserInputService = game:GetService("UserInputService")
+		local RunService = game:GetService("RunService")
+		local Camera = workspace.CurrentCamera
+	
+		local SPEED_MULTIPLIER = 30
+		local JUMP_POWER = 60
+		local JUMP_GAP = 0.3
+	
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+	
+		for i, v in ipairs(character:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.CanCollide = false
+			end
+		end
+	
+		local ball = character:WaitForChild("HumanoidRootPart")
+		ball.Shape = Enum.PartType.Ball
+		ball.Size = Vector3.new(5, 5, 5)
+	
+		local humanoid = character:WaitForChild("Humanoid")
+		local params = RaycastParams.new()
+		params.FilterType = Enum.RaycastFilterType.Blacklist
+		params.FilterDescendantsInstances = {character}
+	
+		local tc
+		tc = RunService.RenderStepped:Connect(function(delta)
+			ball.CanCollide = true
+			humanoid.PlatformStand = true
+	
+			if UserInputService:GetFocusedTextBox() then return end
+	
+			if UserInputService:IsKeyDown("W") then
+				ball.RotVelocity -= Camera.CFrame.RightVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown("A") then
+				ball.RotVelocity -= Camera.CFrame.LookVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown("S") then
+				ball.RotVelocity += Camera.CFrame.RightVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown("D") then
+				ball.RotVelocity += Camera.CFrame.LookVector * delta * SPEED_MULTIPLIER
+			end
+		end)
+	
+		UserInputService.JumpRequest:Connect(function()
+			local result = workspace:Raycast(
+				ball.Position,
+				Vector3.new(0, -((ball.Size.Y / 2) + JUMP_GAP), 0),
+				params
+			)
+			if result then
+				ball.Velocity = ball.Velocity + Vector3.new(0, JUMP_POWER, 0)
+			end
+		end)
+	
+		Camera.CameraSubject = ball
+	
+		humanoid.Died:Connect(function()
+			if tc then
+				tc:Disconnect()
+			end
+		end)
+	end)
+	
+	
+end
+coroutine.wrap(CSLNSSW_fake_script)()
+local function OHCS_fake_script() -- Button_10.LocalScript 
+	local script = Instance.new('LocalScript', Button_10)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/zGU4wsCQ", true))()
+	end)
+	
+	
+end
+coroutine.wrap(OHCS_fake_script)()
+local function LAOBBN_fake_script() -- Button_11.LocalScript 
+	local script = Instance.new('LocalScript', Button_11)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AstraOutlight/my-scripts/refs/heads/main/fe%20car%20v3"))()
+	end)
+	
+	
+end
+coroutine.wrap(LAOBBN_fake_script)()
+local function YPLTG_fake_script() -- Button_12.LocalScript 
+	local script = Instance.new('LocalScript', Button_12)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastefy.app/59mJGQGe/raw"))()
+	end)
+	
+	
+end
+coroutine.wrap(YPLTG_fake_script)()
+local function JMCJ_fake_script() -- Button_13.LocalScript 
+	local script = Instance.new('LocalScript', Button_13)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		pcall(function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-FREAKY-FLING/main/kawaii_freaky_fling.lua", true))()
+		end)
+	end)
+	
+	
+end
+coroutine.wrap(JMCJ_fake_script)()
+local function RYUU_fake_script() -- Button_14.LocalScript 
+	local script = Instance.new('LocalScript', Button_14)
+
+	--loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+	end)
+	
+	
+end
+coroutine.wrap(RYUU_fake_script)()
+local function YTVAT_fake_script() -- Button_15.LocalScript 
+	local script = Instance.new('LocalScript', Button_15)
+
+	--loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/e8KTvWr9'))()
+	end)
+	
+	
+end
+coroutine.wrap(YTVAT_fake_script)()
+local function REVRU_fake_script() -- Button_16.LocalScript 
+	local script = Instance.new('LocalScript', Button_16)
+
+	--loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		--[[
+		WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+	]]
+		local UserInputService = game:GetService("UserInputService")
+		local Players = game:GetService("Players")
+		local StarterGui = game:GetService("StarterGui")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		local E_FLING_FORCE = 70
+		local E_UPWARD_FORCE = 50
+		local E_FLING_DURATION = 0.4
+		local E_SPIN_SPEED = 60
+	
+		local F_FLING_FORCE = 100
+		local F_FLING_DURATION = 0.35
+		local F_SPIN_SPEED = 50
+	
+		local Q_FLING_FORCE = 60
+		local Q_UPWARD_FORCE = 40
+		local Q_FLING_DURATION = 0.45
+		local Q_SPIN_SPEED = 45
+	
+		local R_FLING_FORCE = 50
+		local R_UPWARD_FORCE = 80
+		local R_FLING_DURATION = 0.5
+		local R_SPIN_SPEED = 70
+	
+		local function createGui()
+			local screenGui = Instance.new("ScreenGui")
+			screenGui.Parent = player.PlayerGui
+			screenGui.ResetOnSpawn = false
+	
+			local frame = Instance.new("Frame")
+			frame.Size = UDim2.new(0, 200, 0, 150)
+			frame.Position = UDim2.new(0, 10, 0, 10)
+			frame.BackgroundTransparency = 0.5
+			frame.BackgroundColor3 = Color3.new(0, 0, 0)
+			frame.Parent = screenGui
+	
+			local function createLabel(text, yPos)
+				local label = Instance.new("TextLabel")
+				label.Size = UDim2.new(1, 0, 0, 30)
+				label.Position = UDim2.new(0, 0, 0, yPos)
+				label.BackgroundTransparency = 1
+				label.TextColor3 = Color3.new(1, 1, 1)
+				label.Text = text
+				label.TextSize = 16
+				label.Font = Enum.Font.SourceSansBold
+				label.Parent = frame
+			end
+	
+			createLabel("E: main fling", 0)
+			createLabel("F: super fling", 30)
+			createLabel("Q: left fling", 60)
+			createLabel("R: up fling", 90)
+		end
+	
+		local function flingPlayerE()
+			if humanoid.Health > 0 then
+				local forwardDirection = humanoidRootPart.CFrame.LookVector
+				local bodyVelocity = Instance.new("BodyVelocity")
+				bodyVelocity.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+				bodyVelocity.Velocity = (forwardDirection * E_FLING_FORCE) + Vector3.new(0, E_UPWARD_FORCE, 0)
+				bodyVelocity.Parent = humanoidRootPart
+	
+				local bodyAngularVelocity = Instance.new("BodyAngularVelocity")
+				bodyAngularVelocity.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+				bodyAngularVelocity.AngularVelocity = Vector3.new(
+					math.random(-E_SPIN_SPEED, E_SPIN_SPEED),
+					math.random(-E_SPIN_SPEED, E_SPIN_SPEED),
+					math.random(-E_SPIN_SPEED, E_SPIN_SPEED)
+				)
+				bodyAngularVelocity.Parent = humanoidRootPart
+	
+				game:GetService("Debris"):AddItem(bodyVelocity, E_FLING_DURATION)
+				game:GetService("Debris"):AddItem(bodyAngularVelocity, E_FLING_DURATION)
+			end
+		end
+	
+		local function flingPlayerF()
+			if humanoid.Health > 0 then
+				local forwardDirection = humanoidRootPart.CFrame.LookVector
+				local bodyVelocity = Instance.new("BodyVelocity")
+				bodyVelocity.MaxForce = Vector3.new(math.huge, 0, math.huge)
+				bodyVelocity.Velocity = forwardDirection * F_FLING_FORCE
+				bodyVelocity.Parent = humanoidRootPart
+	
+				local bodyAngularVelocity = Instance.new("BodyAngularVelocity")
+				bodyAngularVelocity.MaxTorque = Vector3.new(math.huge, 0, 0)
+				bodyAngularVelocity.AngularVelocity = Vector3.new(F_SPIN_SPEED, 0, 0)
+				bodyAngularVelocity.Parent = humanoidRootPart
+	
+				game:GetService("Debris"):AddItem(bodyVelocity, F_FLING_DURATION)
+				game:GetService("Debris"):AddItem(bodyAngularVelocity, F_FLING_DURATION)
+			end
+		end
+	
+		local function flingPlayerQ()
+			if humanoid.Health > 0 then
+				local leftDirection = -humanoidRootPart.CFrame.RightVector
+				local bodyVelocity = Instance.new("BodyVelocity")
+				bodyVelocity.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+				bodyVelocity.Velocity = (leftDirection * Q_FLING_FORCE) + Vector3.new(0, Q_UPWARD_FORCE, 0)
+				bodyVelocity.Parent = humanoidRootPart
+	
+				local bodyAngularVelocity = Instance.new("BodyAngularVelocity")
+				bodyAngularVelocity.MaxTorque = Vector3.new(0, 0, math.huge)
+				bodyAngularVelocity.AngularVelocity = Vector3.new(0, 0, Q_SPIN_SPEED)
+				bodyAngularVelocity.Parent = humanoidRootPart
+	
+				game:GetService("Debris"):AddItem(bodyVelocity, Q_FLING_DURATION)
+				game:GetService("Debris"):AddItem(bodyAngularVelocity, Q_FLING_DURATION)
+			end
+		end
+	
+		local function flingPlayerR()
+			if humanoid.Health > 0 then
+				local forwardDirection = humanoidRootPart.CFrame.LookVector
+				local bodyVelocity = Instance.new("BodyVelocity")
+				bodyVelocity.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+				bodyVelocity.Velocity = (forwardDirection * R_FLING_FORCE) + Vector3.new(0, R_UPWARD_FORCE, 0)
+				bodyVelocity.Parent = humanoidRootPart
+	
+				local bodyAngularVelocity = Instance.new("BodyAngularVelocity")
+				bodyAngularVelocity.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+				bodyAngularVelocity.AngularVelocity = Vector3.new(
+					math.random(-R_SPIN_SPEED, R_SPIN_SPEED),
+					math.random(-R_SPIN_SPEED, R_SPIN_SPEED),
+					math.random(-R_SPIN_SPEED, R_SPIN_SPEED)
+				)
+				bodyAngularVelocity.Parent = humanoidRootPart
+	
+				game:GetService("Debris"):AddItem(bodyVelocity, R_FLING_DURATION)
+				game:GetService("Debris"):AddItem(bodyAngularVelocity, R_FLING_DURATION)
+			end
+		end
+	
+		createGui()
+	
+		UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+			if not gameProcessedEvent then
+				if input.KeyCode == Enum.KeyCode.E then
+					flingPlayerE()
+				elseif input.KeyCode == Enum.KeyCode.F then
+					flingPlayerF()
+				elseif input.KeyCode == Enum.KeyCode.Q then
+					flingPlayerQ()
+				elseif input.KeyCode == Enum.KeyCode.R then
+					flingPlayerR()
+				end
+			end
+		end)
+	
+		player.CharacterAdded:Connect(function(newCharacter)
+			character = newCharacter
+			humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+			humanoid = character:WaitForChild("Humanoid")
+			createGui()
+		end)
+	end)
+	
+	
+end
+coroutine.wrap(REVRU_fake_script)()
+local function SIIAI_fake_script() -- Button_25.LocalScript 
+	local script = Instance.new('LocalScript', Button_25)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+	
+	
+end
+coroutine.wrap(SIIAI_fake_script)()
+local function FJNZO_fake_script() -- Button_26.LocalScript 
+	local script = Instance.new('LocalScript', Button_26)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+	end)
+	
+	
+end
+coroutine.wrap(FJNZO_fake_script)()
+local function CXDBQ_fake_script() -- MainBackroundFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainBackroundFrame)
+
+	local TweenService = game:GetService("TweenService")
+	
+	local sideFrame = script.Parent:WaitForChild("SideFrame")
+	local scrollsFrame = script.Parent:WaitForChild("ScrollsFrame")
+	
+	local tabs = {
+		Home = "HomeFrame",
+		Fe = "FeFrame",
+		Flings = "FlingsFrame",
+		Admin = "AdminFrame"
+	}
+	
+	local currentVisibleFrame = nil
+	local fadeTime = 0.25
+	
+	-- Tween transparency of all children inside a frame
+	local function tweenChildrenTransparency(frame, targetTransparency)
+		for _, child in ipairs(frame:GetDescendants()) do
+			if child:IsA("TextLabel") or child:IsA("TextButton") or child:IsA("ImageLabel") or child:IsA("ImageButton") then
+				local property = child:IsA("TextLabel") or child:IsA("TextButton") and "TextTransparency" or "ImageTransparency"
+				if property then
+					TweenService:Create(child, TweenInfo.new(fadeTime), {[property] = targetTransparency}):Play()
+				end
+			end
+		end
+	end
+	
+	-- Fades out contents and hides frame
+	local function fadeOut(frame)
+		tweenChildrenTransparency(frame, 1)
+		task.wait(fadeTime)
+		frame.Visible = false
+	end
+	
+	-- Fades in contents and shows frame
+	local function fadeIn(frame)
+		for _, child in ipairs(frame:GetDescendants()) do
+			if child:IsA("TextLabel") or child:IsA("TextButton") or child:IsA("ImageLabel") or child:IsA("ImageButton") then
+				local property = child:IsA("TextLabel") or child:IsA("TextButton") and "TextTransparency" or "ImageTransparency"
+				if property then
+					child[property] = 1 -- start invisible
+				end
+			end
+		end
+	
+		frame.Visible = true
+		tweenChildrenTransparency(frame, 0)
+	end
+	
+	-- Switch to selected tab
+	local function switchTo(tabName)
+		local newFrame = scrollsFrame:FindFirstChild(tabs[tabName])
+		if not newFrame then return end
+	
+		if currentVisibleFrame and currentVisibleFrame ~= newFrame then
+			fadeOut(currentVisibleFrame)
+		elseif currentVisibleFrame == newFrame then
+			return
+		end
+	
+		fadeIn(newFrame)
+		currentVisibleFrame = newFrame
+	end
+	
+	-- Connect buttons
+	for tabName, frameName in pairs(tabs) do
+		local button = sideFrame:FindFirstChild(tabName)
+		if button then
+			button.MouseButton1Click:Connect(function()
+				switchTo(tabName)
+			end)
+		end
+	end
+	
+	-- Initial setup: hide all, set transparencies
+	for _, frameName in pairs(tabs) do
+		local frame = scrollsFrame:FindFirstChild(frameName)
+		if frame then
+			frame.Visible = false
+			for _, child in ipairs(frame:GetDescendants()) do
+				if child:IsA("TextLabel") or child:IsA("TextButton") or child:IsA("ImageLabel") or child:IsA("ImageButton") then
+					local property = child:IsA("TextLabel") or child:IsA("TextButton") and "TextTransparency" or "ImageTransparency"
+					if property then
+						child[property] = 1
+					end
+				end
+			end
+		end
+	end
+	
+	-- Show default tab
+	local default = scrollsFrame:FindFirstChild(tabs["Home"])
+	if default then
+		default.Visible = true
+		currentVisibleFrame = default
+		tweenChildrenTransparency(default, 0)
+	end
+	
+end
+coroutine.wrap(CXDBQ_fake_script)()
+local function BFSCJWD_fake_script() -- MainBackroundFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainBackroundFrame)
+
+	local frame = script.Parent
+	local dragging = false
+	local dragInput, mousePos, framePos
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			mousePos = input.Position
+			framePos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			dragInput = input
+		end
+	end)
+	
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			local delta = input.Position - mousePos
+			frame.Position = UDim2.new(
+				framePos.X.Scale, framePos.X.Offset + delta.X,
+				framePos.Y.Scale, framePos.Y.Offset + delta.Y
+			)
+		end
+	end)
+	
+end
+coroutine.wrap(BFSCJWD_fake_script)()
