@@ -3,6 +3,7 @@
 
 -- Instances:
 
+local ScreenGui = Instance.new("ScreenGui")
 local MainBackroundFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local SecondBackroundFrame = Instance.new("Frame")
@@ -114,8 +115,12 @@ local UICorner_45 = Instance.new("UICorner")
 
 --Properties:
 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
 MainBackroundFrame.Name = "MainBackroundFrame"
-MainBackroundFrame.Parent = game.StarterGui.ScreenGui
+MainBackroundFrame.Parent = ScreenGui
 MainBackroundFrame.BackgroundColor3 = Color3.fromRGB(75, 0, 149)
 MainBackroundFrame.BackgroundTransparency = 0.350
 MainBackroundFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -977,7 +982,7 @@ UICorner_45.Parent = Button_36
 
 -- Scripts:
 
-local function EQQNH_fake_script() -- Close.LocalScript 
+local function JAOHWQR_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local button = script.Parent
@@ -1024,8 +1029,8 @@ local function EQQNH_fake_script() -- Close.LocalScript
 	button.MouseButton1Click:Connect(fadeOutGUI)
 	
 end
-coroutine.wrap(EQQNH_fake_script)()
-local function JJBKN_fake_script() -- Button.LocalScript 
+coroutine.wrap(JAOHWQR_fake_script)()
+local function EMRWPHG_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	local button = script.Parent
@@ -1036,8 +1041,8 @@ local function JJBKN_fake_script() -- Button.LocalScript
 	
 	
 end
-coroutine.wrap(JJBKN_fake_script)()
-local function XYSCMRL_fake_script() -- Button_3.LocalScript 
+coroutine.wrap(EMRWPHG_fake_script)()
+local function DDAFBE_fake_script() -- Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Button_3)
 
 	local button = script.Parent
@@ -1047,8 +1052,8 @@ local function XYSCMRL_fake_script() -- Button_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(XYSCMRL_fake_script)()
-local function DNCRC_fake_script() -- Button_4.LocalScript 
+coroutine.wrap(DDAFBE_fake_script)()
+local function AJHZH_fake_script() -- Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Button_4)
 
 	local button = script.Parent
@@ -1058,8 +1063,8 @@ local function DNCRC_fake_script() -- Button_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(DNCRC_fake_script)()
-local function XBOPU_fake_script() -- Button_5.LocalScript 
+coroutine.wrap(AJHZH_fake_script)()
+local function KUUHN_fake_script() -- Button_5.LocalScript 
 	local script = Instance.new('LocalScript', Button_5)
 
 	local button = script.Parent
@@ -1069,8 +1074,8 @@ local function XBOPU_fake_script() -- Button_5.LocalScript
 	end)
 	
 end
-coroutine.wrap(XBOPU_fake_script)()
-local function PFRVGDJ_fake_script() -- Button_6.LocalScript 
+coroutine.wrap(KUUHN_fake_script)()
+local function YPQMF_fake_script() -- Button_6.LocalScript 
 	local script = Instance.new('LocalScript', Button_6)
 
 	local button = script.Parent
@@ -1182,8 +1187,8 @@ local function PFRVGDJ_fake_script() -- Button_6.LocalScript
 	end)
 	
 end
-coroutine.wrap(PFRVGDJ_fake_script)()
-local function JXOXM_fake_script() -- Button_7.LocalScript 
+coroutine.wrap(YPQMF_fake_script)()
+local function FKSVST_fake_script() -- Button_7.LocalScript 
 	local script = Instance.new('LocalScript', Button_7)
 
 	local button = script.Parent
@@ -1279,8 +1284,8 @@ local function JXOXM_fake_script() -- Button_7.LocalScript
 	end)
 	
 end
-coroutine.wrap(JXOXM_fake_script)()
-local function MZXGNED_fake_script() -- Button_8.LocalScript 
+coroutine.wrap(FKSVST_fake_script)()
+local function DPKRN_fake_script() -- Button_8.LocalScript 
 	local script = Instance.new('LocalScript', Button_8)
 
 	local button = script.Parent
@@ -1291,8 +1296,8 @@ local function MZXGNED_fake_script() -- Button_8.LocalScript
 	
 	
 end
-coroutine.wrap(MZXGNED_fake_script)()
-local function CSLNSSW_fake_script() -- Button_9.LocalScript 
+coroutine.wrap(DPKRN_fake_script)()
+local function IUBV_fake_script() -- Button_9.LocalScript 
 	local script = Instance.new('LocalScript', Button_9)
 
 	local button = script.Parent
@@ -1367,8 +1372,8 @@ local function CSLNSSW_fake_script() -- Button_9.LocalScript
 	
 	
 end
-coroutine.wrap(CSLNSSW_fake_script)()
-local function OHCS_fake_script() -- Button_10.LocalScript 
+coroutine.wrap(IUBV_fake_script)()
+local function OFQC_fake_script() -- Button_10.LocalScript 
 	local script = Instance.new('LocalScript', Button_10)
 
 	local button = script.Parent
@@ -1379,8 +1384,8 @@ local function OHCS_fake_script() -- Button_10.LocalScript
 	
 	
 end
-coroutine.wrap(OHCS_fake_script)()
-local function LAOBBN_fake_script() -- Button_11.LocalScript 
+coroutine.wrap(OFQC_fake_script)()
+local function PWBLDM_fake_script() -- Button_11.LocalScript 
 	local script = Instance.new('LocalScript', Button_11)
 
 	local button = script.Parent
@@ -1391,8 +1396,8 @@ local function LAOBBN_fake_script() -- Button_11.LocalScript
 	
 	
 end
-coroutine.wrap(LAOBBN_fake_script)()
-local function YPLTG_fake_script() -- Button_12.LocalScript 
+coroutine.wrap(PWBLDM_fake_script)()
+local function SBQGYT_fake_script() -- Button_12.LocalScript 
 	local script = Instance.new('LocalScript', Button_12)
 
 	local button = script.Parent
@@ -1403,8 +1408,8 @@ local function YPLTG_fake_script() -- Button_12.LocalScript
 	
 	
 end
-coroutine.wrap(YPLTG_fake_script)()
-local function JMCJ_fake_script() -- Button_13.LocalScript 
+coroutine.wrap(SBQGYT_fake_script)()
+local function XKETFK_fake_script() -- Button_13.LocalScript 
 	local script = Instance.new('LocalScript', Button_13)
 
 	local button = script.Parent
@@ -1417,8 +1422,8 @@ local function JMCJ_fake_script() -- Button_13.LocalScript
 	
 	
 end
-coroutine.wrap(JMCJ_fake_script)()
-local function RYUU_fake_script() -- Button_14.LocalScript 
+coroutine.wrap(XKETFK_fake_script)()
+local function DALS_fake_script() -- Button_14.LocalScript 
 	local script = Instance.new('LocalScript', Button_14)
 
 	--loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
@@ -1430,8 +1435,8 @@ local function RYUU_fake_script() -- Button_14.LocalScript
 	
 	
 end
-coroutine.wrap(RYUU_fake_script)()
-local function YTVAT_fake_script() -- Button_15.LocalScript 
+coroutine.wrap(DALS_fake_script)()
+local function FTRP_fake_script() -- Button_15.LocalScript 
 	local script = Instance.new('LocalScript', Button_15)
 
 	--loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
@@ -1443,8 +1448,8 @@ local function YTVAT_fake_script() -- Button_15.LocalScript
 	
 	
 end
-coroutine.wrap(YTVAT_fake_script)()
-local function REVRU_fake_script() -- Button_16.LocalScript 
+coroutine.wrap(FTRP_fake_script)()
+local function OYQELXC_fake_script() -- Button_16.LocalScript 
 	local script = Instance.new('LocalScript', Button_16)
 
 	--loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
@@ -1618,8 +1623,8 @@ local function REVRU_fake_script() -- Button_16.LocalScript
 	
 	
 end
-coroutine.wrap(REVRU_fake_script)()
-local function SIIAI_fake_script() -- Button_25.LocalScript 
+coroutine.wrap(OYQELXC_fake_script)()
+local function NDPX_fake_script() -- Button_25.LocalScript 
 	local script = Instance.new('LocalScript', Button_25)
 
 	local button = script.Parent
@@ -1630,8 +1635,8 @@ local function SIIAI_fake_script() -- Button_25.LocalScript
 	
 	
 end
-coroutine.wrap(SIIAI_fake_script)()
-local function FJNZO_fake_script() -- Button_26.LocalScript 
+coroutine.wrap(NDPX_fake_script)()
+local function FCHGW_fake_script() -- Button_26.LocalScript 
 	local script = Instance.new('LocalScript', Button_26)
 
 	local button = script.Parent
@@ -1642,8 +1647,8 @@ local function FJNZO_fake_script() -- Button_26.LocalScript
 	
 	
 end
-coroutine.wrap(FJNZO_fake_script)()
-local function CXDBQ_fake_script() -- MainBackroundFrame.LocalScript 
+coroutine.wrap(FCHGW_fake_script)()
+local function ICHBNV_fake_script() -- MainBackroundFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainBackroundFrame)
 
 	local TweenService = game:GetService("TweenService")
@@ -1745,8 +1750,8 @@ local function CXDBQ_fake_script() -- MainBackroundFrame.LocalScript
 	end
 	
 end
-coroutine.wrap(CXDBQ_fake_script)()
-local function BFSCJWD_fake_script() -- MainBackroundFrame.LocalScript 
+coroutine.wrap(ICHBNV_fake_script)()
+local function XHFIGUW_fake_script() -- MainBackroundFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainBackroundFrame)
 
 	local frame = script.Parent
@@ -1784,4 +1789,4 @@ local function BFSCJWD_fake_script() -- MainBackroundFrame.LocalScript
 	end)
 	
 end
-coroutine.wrap(BFSCJWD_fake_script)()
+coroutine.wrap(XHFIGUW_fake_script)()
